@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+.banner-1{
+   background-image: url('./../images/banner-1-1-1.jpg');
+   background-repeat: no-repeat;
+   background-size:cover; 
+   background-position: center;
+}
+.banner-3{
+   background-image: url('./../images/home-3-banner.png');
+   background-repeat: no-repeat;
+   background-size:cover; 
+   background-position: center;
+}
