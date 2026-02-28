@@ -224,6 +224,15 @@
   .start {
     inset-inline-start: var(--spacing);
   }
+  .-top-7 {
+    top: calc(var(--spacing) * -7);
+  }
+  .-top-8 {
+    top: calc(var(--spacing) * -8);
+  }
+  .-top-10 {
+    top: calc(var(--spacing) * -10);
+  }
   .-top-16 {
     top: calc(var(--spacing) * -16);
   }
@@ -238,6 +247,9 @@
   }
   .top-3 {
     top: calc(var(--spacing) * 3);
+  }
+  .top-16 {
+    top: calc(var(--spacing) * 16);
   }
   .right-0 {
     right: calc(var(--spacing) * 0);
@@ -660,6 +672,9 @@
   }
   .p-8 {
     padding: calc(var(--spacing) * 8);
+  }
+  .p-10 {
+    padding: calc(var(--spacing) * 10);
   }
   .p-15 {
     padding: calc(var(--spacing) * 15);
